@@ -1,0 +1,16 @@
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.App.deps.json
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.App.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.App.pdb
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.Domain.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.Domain.pdb
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.csproj.AssemblyReference.cache
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.AssemblyInfoInputs.cache
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.AssemblyInfo.cs
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.csproj.CoreCompileInputs.cache
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.sourcelink.json
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/Maritime.0751A126.Up2Date
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/refint/MaritimeManager.App.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.pdb
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.App/obj/Debug/net9.0/ref/MaritimeManager.App.dll
