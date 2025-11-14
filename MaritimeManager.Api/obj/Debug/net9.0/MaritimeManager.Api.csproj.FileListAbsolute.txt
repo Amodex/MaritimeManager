@@ -161,3 +161,9 @@
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.App.pdb
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Infra.pdb
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Domain.pdb
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/AutoMapper.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Api/bin/Debug/net9.0/Ulid.dll

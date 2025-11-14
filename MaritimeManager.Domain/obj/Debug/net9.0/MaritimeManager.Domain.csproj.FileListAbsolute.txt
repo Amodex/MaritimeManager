@@ -10,3 +10,4 @@
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/refint/MaritimeManager.Domain.dll
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.pdb
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/ref/MaritimeManager.Domain.dll
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.csproj.AssemblyReference.cache

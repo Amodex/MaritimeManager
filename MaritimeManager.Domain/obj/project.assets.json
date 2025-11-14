@@ -1,11 +1,50 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Ulid/1.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Ulid/1.4.1": {
+      "sha512": "V6crLJ8a29raWeNwxYGfH9RTKA3H0nR0D9LAGzN3KtEsbiiaWkUjDor6OT5Oz7pxCK+NaY2hu2FLoYEOa8oCkA==",
+      "type": "package",
+      "path": "ulid/1.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Ulid.dll",
+        "lib/net6.0/Ulid.xml",
+        "lib/net7.0/Ulid.dll",
+        "lib/net7.0/Ulid.xml",
+        "lib/net8.0/Ulid.dll",
+        "lib/net8.0/Ulid.xml",
+        "lib/netstandard2.0/Ulid.dll",
+        "lib/netstandard2.0/Ulid.xml",
+        "lib/netstandard2.1/Ulid.dll",
+        "lib/netstandard2.1/Ulid.xml",
+        "ulid.1.4.1.nupkg.sha512",
+        "ulid.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Ulid >= 1.4.1"
+    ]
   },
   "packageFolders": {
     "/Users/amaurydecru/.nuget/packages/": {}
@@ -49,6 +88,12 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
+        "dependencies": {
+          "Ulid": {
+            "target": "Package",
+            "version": "[1.4.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

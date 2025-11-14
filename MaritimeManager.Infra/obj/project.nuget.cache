@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tO9WJ5joDlU=",
+  "dgSpecHash": "ZatDh4y9Ao8=",
   "success": true,
   "projectFilePath": "/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Infra/MaritimeManager.Infra.csproj",
   "expectedPackageFiles": [
+    "/Users/amaurydecru/.nuget/packages/automapper/15.1.0/automapper.15.1.0.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/microsoft.build.framework/17.8.3/microsoft.build.framework.17.8.3.nupkg.sha512",
@@ -32,6 +33,10 @@
     "/Users/amaurydecru/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.10/microsoft.extensions.logging.abstractions.9.0.10.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/microsoft.extensions.options/9.0.10/microsoft.extensions.options.9.0.10.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/microsoft.extensions.primitives/9.0.10/microsoft.extensions.primitives.9.0.10.nupkg.sha512",
+    "/Users/amaurydecru/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "/Users/amaurydecru/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "/Users/amaurydecru/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "/Users/amaurydecru/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
@@ -50,7 +55,8 @@
     "/Users/amaurydecru/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/amaurydecru/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512",
-    "/Users/amaurydecru/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+    "/Users/amaurydecru/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/Users/amaurydecru/.nuget/packages/ulid/1.4.1/ulid.1.4.1.nupkg.sha512"
   ],
   "logs": []
 }

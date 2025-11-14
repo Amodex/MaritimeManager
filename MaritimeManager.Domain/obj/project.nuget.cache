@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FenU+mfkfUU=",
+  "dgSpecHash": "g7qYTTMMWPc=",
   "success": true,
   "projectFilePath": "/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/MaritimeManager.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/amaurydecru/.nuget/packages/ulid/1.4.1/ulid.1.4.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -48,6 +48,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.1.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[10.0.0, )"
@@ -112,6 +116,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Ulid": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
