@@ -19,6 +19,13 @@ public class MaritimeDbContext : DbContext
 
         modelBuilder.Entity<PointOfInterest>(entity =>
         {
+            entity.Property(e => e.Id).HasColumnOrder(0);
+            entity.Property(e => e.Identifier).HasColumnOrder(1);
+            entity.Property(e => e.Name).HasColumnOrder(2);
+            entity.Property(e => e.Description).HasColumnOrder(3);
+            entity.Property(e => e.Latitude).HasColumnOrder(4);
+            entity.Property(e => e.Longitude).HasColumnOrder(5);
+            entity.Property(e => e.Type).HasColumnOrder(6);
             entity.Property(e => e.Identifier).HasConversion<UlidToStringConverter>();
         });
     }

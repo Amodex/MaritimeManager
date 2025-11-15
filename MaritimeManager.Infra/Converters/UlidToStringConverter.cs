@@ -4,7 +4,13 @@ namespace MaritimeManager.Infra.Converters;
 
 public class UlidToStringConverter : ValueConverter<Ulid, string>
 {
-    public UlidToStringConverter() : base(
+    private static readonly ConverterMappingHints DefaultHints = new ConverterMappingHints(size: 26);
+    
+    public UlidToStringConverter() : this(null)
+    {
+    }
+
+    public UlidToStringConverter(ConverterMappingHints? mappingHints) : base(
         convertToProviderExpression: ulid => ulid.ToString(),
         convertFromProviderExpression: value => Ulid.Parse(value)
     ) {}

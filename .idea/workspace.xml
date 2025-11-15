@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4858010-af0a-4027-9465-eb9f45a69dfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MaritimeManager.App/Mappings/MappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaritimeManager.Infra/Extensions/DbContextExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/Controllers/PointOfInterestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/Controllers/PointOfInterestController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/bin/Debug/net9.0/MaritimeManager.Infra.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/maritime.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/MaritimeManager.Api.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/ref/MaritimeManager.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/ref/MaritimeManager.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/refint/MaritimeManager.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/refint/MaritimeManager.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/DTOs/PointOfInterestDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/DTOs/PointOfInterestDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/Interfaces/IPointOfInterestService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/Interfaces/IPointOfInterestService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/bin/Debug/net9.0/MaritimeManager.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/MaritimeManager.App.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/ref/MaritimeManager.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/ref/MaritimeManager.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/refint/MaritimeManager.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/Debug/net9.0/refint/MaritimeManager.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.App/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.App/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/bin/Debug/net9.0/MaritimeManager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/bin/Debug/net9.0/MaritimeManager.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/bin/Debug/net9.0/MaritimeManager.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/bin/Debug/net9.0/MaritimeManager.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/ref/MaritimeManager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/ref/MaritimeManager.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/refint/MaritimeManager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/Debug/net9.0/refint/MaritimeManager.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/Converters/UlidToStringConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/Converters/UlidToStringConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/Data/MaritimeDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/Data/MaritimeDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/Data/Seeders/DatabaseSeeder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/Data/Seeders/DatabaseSeeder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/Migrations/MaritimeDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/Migrations/MaritimeDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/Services/PointOfInterestService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/Services/PointOfInterestService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/bin/Debug/net9.0/MaritimeManager.Infra.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/MaritimeManager.Infra.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/ref/MaritimeManager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/ref/MaritimeManager.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/refint/MaritimeManager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/Debug/net9.0/refint/MaritimeManager.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.Infra/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.Infra/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaritimeManager.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MaritimeManager.sln.DotSettings.user" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="35W8dXWB3dE3eVMyvyTZXLwiVFT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/amaurydecru/DecruProjects/MaritimeManager"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4858010-af0a-4027-9465-eb9f45a69dfe" name="Changes" comment="" />
+      <created>1763214554480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763214554480</updated>
+    </task>
+    <servers />
+  </component>
+</project>

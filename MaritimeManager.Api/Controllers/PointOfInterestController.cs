@@ -1,3 +1,4 @@
+using MaritimeManager.App.DTOs;
 using MaritimeManager.App.Interfaces;
 using MaritimeManager.Domain.Entities;
 using MaritimeManager.Infra.Services;
@@ -17,15 +18,15 @@ public class PointOfInterestController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<PointOfInterest>>> GetAll()
+    public async Task<ActionResult<IEnumerable<PointOfInterestDto>>> GetAll()
     {
         return Ok(await _pointOfInterestService.GetAllAsync());
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<PointOfInterest>> Get(int id)
+    public async Task<ActionResult<PointOfInterest>> Get(Ulid identifier)
     {
-        PointOfInterest? pointOfInterest = await _pointOfInterestService.GetByIdAsync(id);
+        PointOfInterestDto? pointOfInterest = await _pointOfInterestService.GetByIdentifierAsync(identifier);
 
         if (pointOfInterest == null) return NotFound();
         
@@ -33,27 +34,33 @@ public class PointOfInterestController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<PointOfInterest>> Post(PointOfInterest pointOfInterest)
+    public async Task<ActionResult<PointOfInterest>> Post(CreatePointOfInterestDto createPointOfInterestDto)
     {
-        PointOfInterest createdPointOfInterest = await _pointOfInterestService.CreateAsync(pointOfInterest);
+        PointOfInterestDto createdPointOfInterest = await _pointOfInterestService.CreateAsync(createPointOfInterestDto);
         
-        return CreatedAtAction(nameof(Get), new { id = pointOfInterest.Id }, createdPointOfInterest);
+        return CreatedAtAction(nameof(Get), new { identifier = createdPointOfInterest.Identifier }, createdPointOfInterest);
     }
     
     [HttpPut("{id}")]
-    public async Task<IActionResult> Put(int id, PointOfInterest pointOfInterest)
+    public async Task<IActionResult> Put(Ulid identifier, UpdatePointOfInterestDto updatePointOfInterestDto)
     {
-        if (id != pointOfInterest.Id) return BadRequest();
-        
-        await _pointOfInterestService.UpdateAsync(pointOfInterest);
+        try
+        {
+            await _pointOfInterestService.UpdateAsync(identifier, updatePointOfInterestDto);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound();
+        }
         
         return NoContent();
     }
     
     [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(int id)
+    public async Task<IActionResult> Delete(Ulid identifier)
     {
-        await _pointOfInterestService.DeleteAsync(id);
+        await _pointOfInterestService.DeleteAsync(identifier);
+        
         return NoContent();
     }
 }

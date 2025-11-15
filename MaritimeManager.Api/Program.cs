@@ -1,5 +1,10 @@
+using System.Text.Json;
+using AutoMapper;
 using MaritimeManager.Api.Extensions;
+using MaritimeManager.App.DTOs;
 using MaritimeManager.App.Interfaces;
+using MaritimeManager.App.Mappings;
+using MaritimeManager.Domain.Entities;
 using MaritimeManager.Infra.Data;
 using MaritimeManager.Infra.Data.Seeders;
 using MaritimeManager.Infra.Services;
@@ -11,12 +16,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MaritimeDbContext>(options
     => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddAutoMapper(conf => { }, typeof(MappingProfile));
+
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<IPointOfInterestService, PointOfInterestService>();
 builder.Services.AddScoped<DatabaseSeeder>();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+    });
 
 // Add Swagger services
 builder.Services.AddEndpointsApiExplorer();

@@ -1,6 +1,7 @@
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/bin/Debug/net9.0/MaritimeManager.Domain.deps.json
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/bin/Debug/net9.0/MaritimeManager.Domain.dll
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/bin/Debug/net9.0/MaritimeManager.Domain.pdb
+/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.csproj.AssemblyReference.cache
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.AssemblyInfoInputs.cache
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.AssemblyInfo.cs
@@ -10,4 +11,3 @@
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/refint/MaritimeManager.Domain.dll
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.pdb
 /Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/ref/MaritimeManager.Domain.dll
-/Users/amaurydecru/DecruProjects/MaritimeManager/MaritimeManager.Domain/obj/Debug/net9.0/MaritimeManager.Domain.csproj.AssemblyReference.cache

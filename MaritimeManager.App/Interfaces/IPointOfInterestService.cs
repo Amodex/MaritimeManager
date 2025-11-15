@@ -1,12 +1,13 @@
+using MaritimeManager.App.DTOs;
 using MaritimeManager.Domain.Entities;
 
 namespace MaritimeManager.App.Interfaces;
 
 public interface IPointOfInterestService
 {
-    Task<IEnumerable<PointOfInterest>> GetAllAsync();
-    Task<PointOfInterest?> GetByIdAsync(int id);
-    Task<PointOfInterest> CreateAsync(PointOfInterest pointOfInterest);
-    Task UpdateAsync(PointOfInterest pointOfInterest);
-    Task DeleteAsync(int id);
+    Task<IEnumerable<PointOfInterestDto>> GetAllAsync();
+    Task<PointOfInterestDto?> GetByIdentifierAsync(Ulid identifier);
+    Task<PointOfInterestDto> CreateAsync(CreatePointOfInterestDto pointOfInterestDto);
+    Task UpdateAsync(Ulid identifier, UpdatePointOfInterestDto pointOfInterestDto);
+    Task DeleteAsync(Ulid identifier);
 }

@@ -16,29 +16,39 @@ namespace MaritimeManager.Infra.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.10");
 
-            modelBuilder.Entity("MaritimeManager.Api.Models.PointOfInterest", b =>
+            modelBuilder.Entity("MaritimeManager.Domain.Entities.PointOfInterest", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnOrder(0);
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT")
+                        .HasColumnOrder(3);
+
+                    b.Property<string>("Identifier")
+                        .HasColumnType("TEXT")
+                        .HasColumnOrder(1);
 
                     b.Property<double>("Latitude")
-                        .HasColumnType("REAL");
+                        .HasColumnType("REAL")
+                        .HasColumnOrder(4);
 
                     b.Property<double>("Longitude")
-                        .HasColumnType("REAL");
+                        .HasColumnType("REAL")
+                        .HasColumnOrder(5);
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT")
+                        .HasColumnOrder(2);
 
                     b.Property<string>("Type")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT")
+                        .HasColumnOrder(6);
 
                     b.HasKey("Id");
 
