@@ -5,6 +5,10 @@ import type { Map } from 'leaflet'; // Import Leaflet types
 import type { PointOfInterestInterface } from '../interfaces/PointOfInterestInterface.ts'; // Use @ alias for src
 import API_BASE_URL from '@/api';
 
+const emit = defineEmits<{
+  (e: 'map-clicked', lat: number, lng: number): void
+}>();
+
 // Fix for default marker icon issue
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -33,6 +37,13 @@ const loadAndDisplayPois = async (): Promise<void> => {
   }
 };
 
+const onMapClick = (e: L.LeafletMouseEvent) => {
+  const { lat, lng } = e.latlng;
+
+  // Emit the coordinates up to the parent component
+  emit('map-clicked', lat, lng);
+};
+
 // Expose the function to the parent component
 defineExpose({
   refreshMap: loadAndDisplayPois
@@ -51,6 +62,8 @@ onMounted(() => {
   L.tileLayer('https://tiles.openseamap.org/seamark/{z}/{x}/{y}.png', {
     attribution: 'Map data: &copy; <a href="http://www.openseamap.org">OpenSeaMap</a> contributors'
   }).addTo(map);
+
+  map.on('click', onMapClick)
 
   loadAndDisplayPois();
 });

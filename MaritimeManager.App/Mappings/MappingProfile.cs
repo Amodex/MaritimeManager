@@ -11,7 +11,8 @@ public class MappingProfile : Profile
         CreateMap<PointOfInterest, PointOfInterestDto>();
         CreateMap<CreatePointOfInterestDto, PointOfInterest>()
             .ForMember(dest => dest.Id, opt => opt.Ignore())
-            .ForMember(dest => dest.Identifier, opt => opt.Ignore());
+            .ForMember(dest => dest.Identifier, opt => opt.MapFrom(src => Ulid.NewUlid()));
+        ;
         CreateMap<UpdatePointOfInterestDto, PointOfInterest>();
     }
 }

@@ -1,4 +1,5 @@
 using MaritimeManager.Domain.Entities;
+using MaritimeManager.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
 
 namespace MaritimeManager.Infra.Data.Seeders;
@@ -26,7 +27,7 @@ public class DatabaseSeeder
                     Description = "The Thorntonbank Wind Farm is an offshore wind farm. It is the first offshore wind farm in Belgium.", 
                     Latitude = 51.539914859121396, 
                     Longitude = 2.9400334263154755, 
-                    Type = "Energy Infrastructure"
+                    Type = PointOfInterestType.EnergyInfrastructure
                 },
                 new PointOfInterest
                 {
@@ -34,7 +35,7 @@ public class DatabaseSeeder
                     Description = "Princess Elisabeth Island is an artificial island under construction in the North Sea, with an area of six hectares.", 
                     Latitude = 51.527222, 
                     Longitude = 2.498333, 
-                    Type = "Energy Infrastructure"
+                    Type = PointOfInterestType.EnergyInfrastructure
                 },
                 new PointOfInterest
                 {
@@ -42,7 +43,7 @@ public class DatabaseSeeder
                     Description = "A German WW1-era submarine destroyed in a British minefield near Ostend.", 
                     Latitude = 51.35, 
                     Longitude = 2.633333, 
-                    Type = "Wreck"
+                    Type = PointOfInterestType.Wreck
                 },
                 new PointOfInterest
                 {
@@ -50,7 +51,7 @@ public class DatabaseSeeder
                     Description = "The wreck of a Belgian Lightship that sunk due to collision with a german sloop.", 
                     Latitude = 51.22878, 
                     Longitude = 2.27134, 
-                    Type = "Wreck"
+                    Type = PointOfInterestType.Wreck
                 },
                 new PointOfInterest
                 {
@@ -58,7 +59,7 @@ public class DatabaseSeeder
                     Description = "A Dutch VOC ship that sunk in 1735 after it sailed onto a sandbank and punctured.", 
                     Latitude = 51.491972, 
                     Longitude = 3.114556, 
-                    Type = "Wreck"
+                    Type = PointOfInterestType.Wreck
                 },
             };
             

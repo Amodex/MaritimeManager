@@ -1,3 +1,5 @@
+using MaritimeManager.Domain.Enums;
+
 namespace MaritimeManager.Domain.Entities;
 
 public class PointOfInterest
@@ -8,5 +10,5 @@ public class PointOfInterest
     public required string Description { get; set; }
     public double Latitude { get; set; }
     public double Longitude { get; set; }
-    public required string Type { get; set; }
+    public PointOfInterestType Type { get; set; }
 }

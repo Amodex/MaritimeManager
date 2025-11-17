@@ -1,7 +1,6 @@
 using MaritimeManager.App.DTOs;
 using MaritimeManager.App.Interfaces;
 using MaritimeManager.Domain.Entities;
-using MaritimeManager.Infra.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MaritimeManager.Api.Controllers;
@@ -23,7 +22,7 @@ public class PointOfInterestController : ControllerBase
         return Ok(await _pointOfInterestService.GetAllAsync());
     }
 
-    [HttpGet("{id}")]
+    [HttpGet("{identifier}")]
     public async Task<ActionResult<PointOfInterest>> Get(Ulid identifier)
     {
         PointOfInterestDto? pointOfInterest = await _pointOfInterestService.GetByIdentifierAsync(identifier);
@@ -38,10 +37,10 @@ public class PointOfInterestController : ControllerBase
     {
         PointOfInterestDto createdPointOfInterest = await _pointOfInterestService.CreateAsync(createPointOfInterestDto);
         
-        return CreatedAtAction(nameof(Get), new { identifier = createdPointOfInterest.Identifier }, createdPointOfInterest);
+        return Ok(createdPointOfInterest);
     }
     
-    [HttpPut("{id}")]
+    [HttpPut("{identifier}")]
     public async Task<IActionResult> Put(Ulid identifier, UpdatePointOfInterestDto updatePointOfInterestDto)
     {
         try
@@ -56,7 +55,7 @@ public class PointOfInterestController : ControllerBase
         return NoContent();
     }
     
-    [HttpDelete("{id}")]
+    [HttpDelete("{identifier}")]
     public async Task<IActionResult> Delete(Ulid identifier)
     {
         await _pointOfInterestService.DeleteAsync(identifier);

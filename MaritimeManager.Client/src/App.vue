@@ -1,14 +1,20 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import MaritimeMap from './components/MaritimeMap.vue';
-import PoiForm from './components/PoiForm.vue';
+import AddPointModal from '@/components/AddPointModal.vue'
 
-// Type the component ref. This is a powerful TypeScript feature in Vue.
 const mapComponent = ref<InstanceType<typeof MaritimeMap> | null>(null);
+const addPointModal = ref<InstanceType<typeof AddPointModal> | null>(null);
 
-const handlePoiAdded = (): void => {
+const refreshMap = (): void => {
   if (mapComponent.value) {
     mapComponent.value.refreshMap();
+  }
+};
+
+const openAddModal = (lat: number, lng: number): void => {
+  if (addPointModal.value) {
+    addPointModal.value.openModal(lat, lng);
   }
 };
 </script>
@@ -20,11 +26,9 @@ const handlePoiAdded = (): void => {
   </header>
 
   <main class="flex flex-col lg:flex-row h-screen">
-    <section class="lg:w-3/4">
-      <MaritimeMap ref="mapComponent" />
+    <section class="w-full">
+      <MaritimeMap ref="mapComponent" @map-clicked="openAddModal"/>
     </section>
-    <aside class="lg:w-1/4 p-4 bg-gray-100 overflow-y-auto">
-      <PoiForm @poi-added="handlePoiAdded" />
-    </aside>
   </main>
+  <AddPointModal ref="addPointModal" @poi-added="refreshMap"/>
 </template>
