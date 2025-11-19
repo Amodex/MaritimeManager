@@ -47,8 +47,13 @@ public class PointOfInterestService : IPointOfInterestService
     public async Task UpdateAsync(Ulid identifier, UpdatePointOfInterestDto pointOfInterestDto)
     {
         PointOfInterest? pointOfInterest = await _dbContext.PointsOfInterest.FindByIdentifierAsync(identifier);
+        
         if (pointOfInterest == null) throw new KeyNotFoundException($"Pointofinterest with identifier {identifier} not found");
+        
+        _mapper.Map(pointOfInterestDto, pointOfInterest);
+
         _dbContext.Entry(pointOfInterest).State = EntityState.Modified;
+        
         await _dbContext.SaveChangesAsync();
     }
     

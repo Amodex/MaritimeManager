@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaritimeManager.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef8e594ff3b8118098acd160f5aa08df77e48ced")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8065e2d2750dafe862461bac2b2986b69f38b2e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaritimeManager.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaritimeManager.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

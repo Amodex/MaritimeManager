@@ -1,5 +1,5 @@
 export interface PointOfInterestInterface {
-  id?: number;
+  identifier: string;
   name: string;
   description: string;
   latitude: number;
