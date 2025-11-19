@@ -83,7 +83,7 @@ defineExpose({
           id="name"
           v-model="form.name"
           required
-          class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+          class="mt-1 p-2 block w-full h-8 rounded-md border-2 border-gray-400 shadow-md focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
         />
       </div>
 
@@ -95,7 +95,7 @@ defineExpose({
           type="text"
           id="description"
           v-model="form.description"
-          class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+          class="mt-1 p-2 block w-full h-8 rounded-md border-2 border-gray-400 shadow-md focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
         />
       </div>
 
@@ -109,7 +109,7 @@ defineExpose({
             v-model.number="form.latitude"
             step="any"
             required
-            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            class="mt-1 p-2 block w-full h-8 rounded-md border-2 border-gray-400 shadow-md focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
             readonly
           />
         </div>
@@ -121,7 +121,7 @@ defineExpose({
             v-model.number="form.longitude"
             step="any"
             required
-            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            class="mt-1 p-2 block w-full h-8 rounded-md border-2 border-gray-400 shadow-md focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
             readonly
           />
         </div>
@@ -132,7 +132,7 @@ defineExpose({
         <select
           id="type"
           v-model="form.type"
-          class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+          class="mt-1 p-2 block w-full h-10 rounded-md border-2 border-gray-400 shadow-md focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
         >
           <!-- Loop through the enum entries -->
           <option v-for="type in poiTypes" :key="type.value" :value="type.value">
@@ -152,7 +152,7 @@ defineExpose({
         </button>
         <button
           type="submit"
-          class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700"
+          class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
         >
           Add Point
         </button>
